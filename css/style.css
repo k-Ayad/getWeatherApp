@@ -1,0 +1,155 @@
+*{
+    font-family: sans-serif;
+    
+}
+
+.bg-night
+{
+    background-color: #1e202b;
+}
+
+.bg-dark-table
+{
+    background-color: #323544;
+}
+
+.bg-dark-table-2
+{
+    background-color: #262936;
+}
+
+.logo
+{
+    vertical-align: middle;
+}
+.logo h2 
+{
+    font-size: 1.1428571429em;
+    font-weight: 600;
+    line-height: 0;
+    margin-top: 24px;
+    margin-bottom: 15px;
+}
+
+.logo p 
+{
+    font-size: 0.7142857143em;
+    color: #bfc1c8;
+}
+
+.logo img 
+{
+    margin: 15px;
+}
+
+.bg-img
+{
+    background-image: url(../img/banner.png);
+    background-position:  top;
+    background-repeat: no-repeat;
+}
+
+.find-btn
+{
+    background-color: #009ad8;
+    padding: 0px 35px ;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+}
+
+.no-focus:focus
+{
+    outline: none;
+}
+
+.text-color
+{
+    color: #bfc1c8 ;
+}
+
+.bg-muted
+{
+    background-color: rgba(0,0,0,0.9);
+}
+
+.bg-layer
+{
+    background-color: rgba(0,0,0,0.1);
+}
+
+.w-33
+{
+    width: 33.333333333333%;
+}
+
+.w-img
+{
+    width: 100px;
+    height: 100px;
+}
+
+.w-small
+{
+    width: 25px;
+    height: 25px;
+}
+
+.line-h-0
+{
+    line-height: 0;
+}
+
+#todayTemp
+{
+    font-size: 70px;
+}
+
+.fs p 
+{
+    font-size: 1.2857142857em;
+}
+
+.fs h1
+{
+    font-size: 5rem;
+    font-weight: 600;
+    color: white;
+}
+
+.rounded-right
+{
+    border-bottom-right-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+
+.rounded-left
+{
+    border-bottom-left-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+}
+
+.desc
+{
+    color: blue;
+    font-size: 15px;
+    margin: 30px 0px;
+    
+}
+
+.fw-600
+{
+    font-weight: 600;
+}
+
+
+@media screen and (max-width:900px) {
+    .w-33
+    {
+        width: 100%;
+    }
+}

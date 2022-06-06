@@ -1,0 +1,130 @@
+
+
+<html>
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>weatherApp</title>
+</head>
+<body>
+    <header class=" py-4 bg-night ">
+        <div class=" container">
+            <div class=" text-white logo d-flex ">
+                <img src="img/logo@2x.png" width="64" height="38"  alt="logo"/>
+                <div>
+                    <h2 >Weather</h2>
+                    <p>tagline goes here</p>
+                </div>
+               
+            </div>
+        </div>
+    </header>
+
+    <section class=" bg-night bg-img py-5 ">
+        <div class=" container pt-5">
+            <div class=" position-relative">
+                
+                <datalist id="mylist">
+                    <!-- <option value="Option 1">
+                    <option value="Option 2">
+                    <option value="Option 3"> -->
+                 </datalist>
+
+                <input type="text" class=" w-100 py-3 pl-3 rounded-pill border-0 bg-night text-white no-focus" id="searchInp" list="mylist" placeholder="Find your location..."/>
+                <button type="button" class="find-btn" id="findBtn">Find</button>
+            </div>
+              
+        </div>
+         <!-- search area end --> 
+
+        <div class=" container pt-5 text-color d-flex flex-wrap ">
+
+            <div class=" w-33 bg-dark-table rounded-left">
+                <div class=" d-flex justify-content-between px-3 py-2 bg-layer">
+                    <span id="today">Today</span>
+                    <span id="todayDate">Date</span>
+                </div>
+            
+                <div class=" py-4 pl-4 fs">
+                    <p id="city">...</p>
+                    <div class=" d-flex flex-wrap align-items-center">
+                        <h1 id="todayTemp">...</h1>
+                        <img src="img/" id="todayLogo" class=" w-img" alt=""/>
+                    </div>
+
+                    <div class="desc" id="todayDesc">...</div>
+
+
+                    <span class=" mr-3">
+                        <img src="img/icon-umberella@2x.png" class=" w-small" alt=""/>
+                        <span id="windDegree">...%</span> 
+                    </span>
+
+                    <span class="mr-3">
+                        <img src="img/icon-wind@2x.png" class=" w-small" alt=""/>
+                        <span id="windKph">...km/h</span> 
+                    </span>
+
+                    <span class="mr-3">
+                        <img src="img/icon-compass@2x.png" class=" w-small" alt=""/>
+                        <span id="windDir">...</span> 
+                    </span>
+
+
+                </div>
+            </div>
+
+            <div class=" w-33 bg-dark-table-2 text-center  ">
+                <div class=" py-2 bg-layer ">
+                    <span id="tomorrow">...</span>
+                </div>
+
+                <div class=" py-5">
+                    <img src="img/" id="tomLogo" height="50px" width="50px" alt=""/>
+                    <h3 class=" text-white py-3 fw-600" id="tomMaxTemp">...</h3>
+                    <span id="tomMinTemp">...</span>
+                    <div class="desc" id="tomDesc">...</div>
+                </div>
+                
+            </div>
+
+            <div class=" w-33 bg-dark-table text-center  rounded-right">
+                <div class=" py-2 bg-layer ">
+                    <span id="dayAfter">..</span>
+                </div>
+
+                <div class=" py-5">
+                    <img src="img/" id="dayAfterLogo" height="50px" width="50px" alt=""/>
+                    <h3 class=" text-white py-3 fw-600" id="dayAfterMaxTemp">...</h3>
+                    <span id="dayAfterMinTemp">...</span>
+                    <div class="desc" id="dayAfterDesc">...</div>
+                </div>
+
+
+            </div>
+
+        </div> <!-- container end -->
+    </section>
+
+
+
+    <section class=" bg-dark-table-2 py-5">
+        <div class=" container">
+            <div class=" w-75">
+                <div class=" position-relative">
+                    <input type="text" class=" w-100 py-3 pl-3 rounded-pill border-0 bg-night text-white no-focus" placeholder="Enter your email to subscribe"/>
+                    <button type="button" class="find-btn">Subscribe</button>
+                </div>
+                  
+            </div>
+        </div>
+
+        <p class=" container text-white py-4">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        
+    </section>
+
+    
+
+    <script src="js/main.js"></script>
+</body>
+</html>
